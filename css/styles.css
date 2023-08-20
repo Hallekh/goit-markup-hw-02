@@ -1,0 +1,29 @@
+:root {
+  /* Colors */
+  --primary-brand-color: #4d5ae5;
+  --pressed-state-color: #404bbf;
+  --dark-color: #2e2f42;
+  --success-color: #31d0aa;
+  --text-color: #434455;
+  --subtle-text-color: #8e8f99;
+  --subtle-background-color: #e7e9fc;
+  --light-background-color: #f4f4fd;
+  --modal-color: #2e2f42;
+  --hero-background-color: #2e2f42;
+  --white-background-color: #ffffff;
+  --modal-background-color: #fcfcfc;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+  background-color: var(--white-background-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul > li {
+  list-style-type: none;
+}
