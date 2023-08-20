@@ -40,21 +40,35 @@ address a:focus {
 
 header nav .logo {
   text-transform: uppercase;
-  color: var(--dark-color);
+  color: var(--active-states-color);
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
-  line-height: 21px; /* 116.667% */
-  letter-spacing: 0.54px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
 .list {
   list-style: none;
 }
 
+.link {
+  text-decoration: none;
+}
+
 .link-nav {
   color: var(--dark-color);
   font-weight: 500;
+}
+
+.link-nav:hover,
+.link-nav:focus {
+  color: var(--pressed-state-color);
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: var(--pressed-state-color);
 }
 
 .btn {
@@ -98,5 +112,5 @@ footer a {
 }
 
 .accent {
-  color: var(--active-states-color);
+  color: var(--dark-color);
 }
