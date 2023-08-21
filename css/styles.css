@@ -73,9 +73,26 @@ header nav .logo {
   color: var(--pressed-state-color);
 }
 
+.hero {
+  background-color: var(--dark-color);
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white-background-color);
+}
+
 .btn {
   cursor: pointer;
-  background: var(--cloud, #f4f4fd);
+  background-color: var(--active-states-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: var(--white-background-color);
 }
 
 .btn:hover,
@@ -84,7 +101,42 @@ header nav .logo {
   color: var(--white-background-color);
 }
 
-.cards > ul > li {
+.features-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+
+.features-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.about-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark-color);
+}
+
+.cards {
+  background-color: var(--light-background-color);
+}
+
+.team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark-color);
+}
+
+.card {
   background-color: var(--white-background-color);
 }
 
@@ -96,21 +148,30 @@ header nav .logo {
 }
 
 .card-text {
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.32px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
-footer {
-  height: 312px;
+.foo {
   background-color: var(--dark-color);
-  color: var(--light-background-color);
 }
 
 footer a {
-  color: var(--light-background-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--active-states-color);
   text-transform: uppercase;
 }
 
 .accent {
-  color: var(--dark-color);
+  color: var(--light-background-color);
+}
+
+.foo-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--light-background-color);
 }
